@@ -1,0 +1,76 @@
+.container{
+    background-color: #212121;
+}
+.contents{
+    margin: 0rem 3.5rem;
+    padding-top: 3rem;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+}
+.logo img {
+    width: 50px;
+    height: 40px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: .5rem;
+    justify-content: flex-start;
+}
+.text h3{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.text p{
+    margin-top: -.5rem;
+    font-size: 13.2px;
+    text-transform: uppercase;
+}
+.description{
+    margin-top: 1rem;
+}
+.description p{
+    color: #fff;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.63);
+    padding-bottom: 1rem;
+}
+.right{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: .5rem;
+}
+
+.iconx{
+    width: 20px;
+    height: 20px;
+    background-color: #f7c003;
+    border-radius: 50%;
+    padding-left: .12rem;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+
+.lower{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3.5rem;
+    padding-bottom: 1rem;
+}
+.privacy_condition{
+    display: flex;
+}
+.privacy_condition p{
+    margin-left: 2rem;
+}

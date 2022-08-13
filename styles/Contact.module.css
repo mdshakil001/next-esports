@@ -1,0 +1,23 @@
+.container{
+    background-color: #262626;
+}
+.contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 3.5rem;
+    padding: 3rem 0rem;
+}
+.text{
+    color: #fff;
+}
+.btn{
+    padding: .75rem 2rem;
+    clip-path: polygon(15% 0%, 100% 0%, 100% 70%, 85% 100%, 0% 100%, 0% 30%);
+    background-color: #f7c003;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+.letsTalk{
+    margin-bottom: -1rem;
+}

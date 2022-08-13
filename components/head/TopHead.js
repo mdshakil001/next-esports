@@ -27,7 +27,7 @@ const TopHead = () => {
           <div className={styles.line}></div>
         </div>
         <div className={styles.socialIcon}>
-            <div className={styles.icon}><AiFillYoutube color="#f7c003"/></div>
+          <div className={styles.icon}><AiFillYoutube color="#f7c003"/></div>
           <div className={styles.icon}><FaFacebookF color="#f7c003"/></div>
           <div className={styles.icon}><BsTwitter color="#f7c003"/></div>
           <div className={styles.icon}><AiOutlineInstagram color="#f7c003"/></div>

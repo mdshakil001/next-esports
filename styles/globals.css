@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300;400&family=Nunito:wght@200;300;400;500&family=Open+Sans:wght@300;400&family=Prompt:wght@400;500&display=swap');
 *,
 *::after,
 *::before {
@@ -11,7 +12,7 @@
 } */
 
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "Catamaran", sans-serif;
     font-weight: 400;
     box-sizing: border-box;
     line-height: 1.7;
