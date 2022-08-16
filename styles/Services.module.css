@@ -6,11 +6,12 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-    margin: 0rem 3rem;
-    padding: 3rem 0rem;
+
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
 }
 .divx{
-    /* background-color: blanchedalmond; */
     grid-column: 1/3;
 }
 .divx h2{
@@ -23,6 +24,7 @@
     height: 300px;
     background-color: bisque;
     position: relative;
+    overflow: hidden;
 }
 .div img {
     width: 100%;
@@ -32,13 +34,14 @@
 
 .text{
     position: absolute;
-    bottom: 0;
+    top: 10rem;
     margin: 0rem 1rem;
     padding-bottom: .5rem;
 }
 .title h3{
     color: #fff;
 }
+
 .description p{
     font-size: 12px;
     color: #fff;
@@ -54,4 +57,44 @@
     height: 20px;
     background-color: #f7c003;
     margin-right: .5rem;
+}
+
+
+
+/* ==================== */
+
+@media screen and (min-width: 1024px) {
+
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .contents{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 3rem 2rem;
+    }
+    .divx{
+        grid-column: 1/3;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contents{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;        
+    }
+    .divx{
+        grid-column: 1/2;
+    }
+    .div{
+        width: 98%;
+    }
+    
 }

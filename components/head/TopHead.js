@@ -12,6 +12,7 @@ import { SiTiktok } from 'react-icons/si';
 const TopHead = () => {
   return (
     <div className={styles.container}>
+    {/* <div className="container"> */}
       <div className={styles.contents}>
         <div className={styles.left}>
         <p>logo</p>

@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300;400&family=Nunito:wght@200;300;400;500&family=Open+Sans:wght@300;400&family=Prompt:wght@400;500&display=swap');
-*,
+/* *,
 *::after,
 *::before {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 /* html{
@@ -16,10 +22,17 @@ body {
     font-weight: 400;
     box-sizing: border-box;
     line-height: 1.7;
-    width: 100%;
+    /* width: 100%; */
     margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+    /* background-color: #212121; */
 }
-
+.container{
+  background-color: rgba(20, 12, 2, 0.293);
+  max-width: 1280px;
+  margin: 0 auto;
+}
 
 
 

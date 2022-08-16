@@ -10,6 +10,18 @@ const IconSlider = () => {
         <img src="./images/iconSlide/Monarch.png" alt="" />
         <img src="./images/iconSlide/Unicoin.png" alt="" />
         <img src="./images/iconSlide/Zantic.png" alt="" />
+
+        <img src="./images/iconSlide/Bamboo.png" alt="" />
+        <img src="./images/iconSlide/Heline.png" alt="" />
+        <img src="./images/iconSlide/Monarch.png" alt="" />
+        <img src="./images/iconSlide/Unicoin.png" alt="" />
+        <img src="./images/iconSlide/Zantic.png" alt="" />
+
+        <img src="./images/iconSlide/Bamboo.png" alt="" />
+        <img src="./images/iconSlide/Heline.png" alt="" />
+        <img src="./images/iconSlide/Monarch.png" alt="" />
+        <img src="./images/iconSlide/Unicoin.png" alt="" />
+        <img src="./images/iconSlide/Zantic.png" alt="" />
       </div>
     </div>
   )

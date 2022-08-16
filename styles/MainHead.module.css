@@ -1,12 +1,14 @@
 .container{
     background-color: #212121;
+    position: relative;
 }
 .contents{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .3rem 0rem;
-    margin: 0rem 2.5rem;
+    padding: .3rem 2rem .3rem 1.8rem;
+    margin: 0rem auto;
+    max-width:1280px;
 }
 .logo{
     display: flex;
@@ -48,7 +50,13 @@
     margin-left: 1rem;
     font-size: 15px;
     text-transform: uppercase;
+    padding: .78rem 0rem;
+
 }
+.links li a:hover{
+    border-bottom: 2px solid #f7c003;
+}
+
 .btn{
     cursor: pointer;
     padding: .3rem 1rem;
@@ -65,12 +73,69 @@
     margin-bottom: .2rem;
 }
 
-@media only screen and (max-width: 992px) {
+
+
+/* ========= media queries  ==================*/
+
+@media screen and (min-width: 1024px) {
+
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    .links li a {
+        text-decoration: none;
+        color: #fff;
+        margin-left: .75rem;
+        font-size: 13px;
+        /* font-weight: 700; */
+        text-transform: uppercase;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
     .links{
         display: none;
     }
     .bars{
         display: inline-block;
+        margin-right: 1rem;
         cursor: pointer;
+    }
+    .left{
+        display: flex;
+        /* background-color: #f7c003; */
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .links{
+        display: none;
+    }
+    .bars{
+        display: inline-block;
+        margin-right: .5rem;
+        cursor: pointer;
+    }
+    .left{
+        display: flex;
+        /* background-color: #f7c003; */
+        align-items: center;
+    }    
+    .text h3{
+        /* background-color: #f7c003; */
+        text-transform: uppercase;
+        /* font-weight: bold; */
+        font-size: 15px;
+    }
+    .text p{
+        margin-top: -.5rem;
+        font-size: 10.5px;
+        text-transform: uppercase;
+    }
+    .btn{
+        cursor: pointer;
+        padding: .28rem .7rem;
+        clip-path: polygon(15% 0%, 100% 0%, 100% 70%, 85% 100%, 0% 100%, 0% 30%);
+        background-color: #f7c003;
     }
 }
